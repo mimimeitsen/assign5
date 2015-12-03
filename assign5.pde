@@ -121,7 +121,7 @@ void setup () {
   }
   
   //score
-  f=createFont("Calibri", 24);
+  f=createFont("Calibri", 30);
   b=0;
 }
 
@@ -169,10 +169,10 @@ void draw() {
       }  
       
       //score
-      textFont(f,24);
+      textFont(f,30);
       textAlign(CENTER);
       fill(255);
-      text("Score"+b,40,465) ;
+      text("Score"+b,75,465) ;
         
       //flame
       image(hit[flameCurrent], hitPosition[flameCurrent][0], hitPosition[flameCurrent][1]);      
